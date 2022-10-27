@@ -1,0 +1,16 @@
+.card {
+  height: 600px;
+  width: 550px;
+  background-color: whitesmoke;
+  padding: 2rem;
+  border-radius: 1rem;
+  position: relative;
+  border: 1px solid black; 
+}
+
+.card-outer{
+  margin: 10px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
