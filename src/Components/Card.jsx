@@ -23,6 +23,10 @@ const Card = (props) => {
     }
   }, [props.progressValue]);
 
+  function getCountdownValue(value) {
+    return 15 - (props.progressValue / 100 * 15).toFixed(0);
+  }
+
   return (
     <div className="card-outer">
       <div className="card">
@@ -30,7 +34,7 @@ const Card = (props) => {
           {props.progressValue !== undefined
             ? <div className="progress-div">
                 <progress max="100" value={props.progressValue}></progress>
-                <span className="countdown">{15 - (props.progressValue / 100 * 15).toFixed(0)}</span>
+                <span className="countdown">{getCountdownValue()}</span>
               </div>
             : <></>
           }
