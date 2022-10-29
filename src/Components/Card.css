@@ -47,8 +47,8 @@ progress[value]::-webkit-progress-value {
 
 .countdown {
   background-color: black;
-  padding: 1rem 2rem;
+  padding: 0.5rem 1.5rem;
   border-radius: 0.5rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: white;
 }
