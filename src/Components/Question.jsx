@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Card from "./Card";
 
 import "./Question.css";
@@ -12,18 +12,22 @@ const Question = ({
   score,
   setScore,
 }) => {
+  const [progressValue, setProgressValue] = useState(0);
+
   const handleClick = (isCorrect) => {
     if (questionIndex <=5) {
       if (isCorrect) {
         setScore((score) => (score += 100));
       }
 
+      setProgressValue(0);
       setQuestionIndex((prevIndex) => prevIndex + 1);
     }else if(questionIndex>=6 && questionIndex<9) {
       if (isCorrect) {
         setScore((score) => (score += 100));
       }
 
+      setProgressValue(0);
       setQuestionIndex((prevIndex) => prevIndex + 1);
 
     }else {
@@ -31,15 +35,16 @@ const Question = ({
         setScore((score) => (score += 100));
       }
 
+      setProgressValue(0);
       setShowQuestionsPage(false);
       setShowFinalPage(true);
     }
   };
 if(questionIndex<5){
   return (
-    <Card>
+    <Card setQuestionIndex={setQuestionIndex} questionIndex={questionIndex} setShowFinalPage={setShowFinalPage} setShowQuestionsPage={setShowQuestionsPage} progressValue={progressValue} setProgressValue={setProgressValue}>
       <h1 className="question">{questions[questionIndex].questionText}</h1>
-      
+
       <div className="answers">
         {questions[questionIndex].answers.map((answer, i) => (
           <div
@@ -47,7 +52,7 @@ if(questionIndex<5){
             className="answer"
             onClick={() => handleClick(answer.correctAnswer)}
           >
-            <p>{answer.answerText}</p>        
+            <p>{answer.answerText}</p>
           </div>
         ))}
       </div>
@@ -63,9 +68,10 @@ if(questionIndex<5){
   );}
 else{
   return (
-    <Card>
+    <Card setQuestionIndex={setQuestionIndex} questionIndex={questionIndex} setShowFinalPage={setShowFinalPage} setShowQuestionsPage={setShowQuestionsPage} progressValue={progressValue} setProgressValue={setProgressValue
+    }>
       <h1 className="question">{questions[questionIndex].questionText}</h1>
-      
+
       <div className="answers">
         {questions[questionIndex].answers.map((answer, i) => (
           <div
@@ -73,7 +79,7 @@ else{
             className="answer"
             onClick={() => handleClick(answer.correctAnswer)}
           >
-            <img src={answer.answerImg} width="200" height="100" alt="Image not loading"/>        
+            <img src={answer.answerImg} width="200" height="100" alt="Image not loading"/>
           </div>
         ))}
       </div>
