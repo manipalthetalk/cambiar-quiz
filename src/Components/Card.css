@@ -56,7 +56,7 @@ progress[value]::-webkit-progress-value {
 @media only screen and (max-width: 500px){
   .card-contents{
     width: 360px;
-    height: 650px;
+    height: 600px;
     padding: 1.8rem;
     left: 3px;
   }
