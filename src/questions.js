@@ -146,7 +146,7 @@ export const questions = [
     ],
   },
   {
-    questionText: "Which place would be better to beat your apetite?",
+    questionText: "Which place would be better to beat your appetite?",
     answers: [
       {
         answerImg: "./marena.jpg",
