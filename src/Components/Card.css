@@ -15,7 +15,7 @@
 }
 
 .card-outer {
-  margin: 10px;
+  margin: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,10 +56,23 @@ progress[value]::-webkit-progress-value {
 
 @media only screen and (max-width: 500px){
   .card-contents{
-    width: 360px;
+    width: 350px;
     height: 590px;
     padding: 1.8rem;
     left: auto;
     right: auto;
+  }
+}
+
+@media only screen and (min-height:660px){
+  .card-contents{
+    width: 320px;
+    height: 480px;
+    padding: 1.8rem;
+    left: auto;
+    right: auto;
+  }
+  .card-outer {
+    margin-bottom: -30px;
   }
 }
