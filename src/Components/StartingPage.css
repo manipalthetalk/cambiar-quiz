@@ -41,3 +41,10 @@
   bottom: 1rem;
   left: 1rem;
 }
+
+@media only screen and (min-height:660px){
+  .username_input{
+    margin-bottom: 2rem;
+    width: 80%;
+  }
+}
