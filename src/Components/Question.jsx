@@ -43,7 +43,7 @@ const Question = ({
 if(questionIndex<5){
   return (
     <Card className="quecard" setQuestionIndex={setQuestionIndex} questionIndex={questionIndex} setShowFinalPage={setShowFinalPage} setShowQuestionsPage={setShowQuestionsPage} progressValue={progressValue} setProgressValue={setProgressValue}>
-      <h1 className="question">{questions[questionIndex].questionText}</h1>
+      <h2 className="question">{questions[questionIndex].questionText}</h2>
 
       <div className="answers">
         {questions[questionIndex].answers.map((answer, i) => (
@@ -70,7 +70,7 @@ else{
   return (
     <Card setQuestionIndex={setQuestionIndex} questionIndex={questionIndex} setShowFinalPage={setShowFinalPage} setShowQuestionsPage={setShowQuestionsPage} progressValue={progressValue} setProgressValue={setProgressValue
     }>
-      <h1 className="question">{questions[questionIndex].questionText}</h1>
+      <h2 className="question">{questions[questionIndex].questionText}</h2>
 
       <div className="answers">
         {questions[questionIndex].answers.map((answer, i) => (
@@ -79,7 +79,7 @@ else{
             className="answer"
             onClick={() => handleClick(answer.correctAnswer)}
           >
-            <img src={answer.answerImg} width="200" height="100" alt="Image not loading"/>
+            <img src={answer.answerImg} className="quemg" alt="Image not loading"/>
           </div>
         ))}
       </div>
