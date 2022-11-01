@@ -1,5 +1,5 @@
 .card-contents {
-  height: 600px;
+  height: 510px;
   width: 550px;
   padding: 2rem;
   border-top-left-radius: 0;
@@ -15,7 +15,7 @@
 }
 
 .card-outer {
-  margin: 5px;
+  margin: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,7 +54,7 @@ progress[value]::-webkit-progress-value {
   
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 500px) and (min-width: 375px){
   .card-contents{
     width: 350px;
     height: 590px;
@@ -64,10 +64,10 @@ progress[value]::-webkit-progress-value {
   }
 }
 
-@media only screen and (min-height:660px){
+@media only screen and (max-height:660px){
   .card-contents{
     width: 320px;
-    height: 480px;
+    height: 400px;
     padding: 1.8rem;
     left: auto;
     right: auto;

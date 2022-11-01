@@ -1,14 +1,14 @@
 .question {
   
   text-align: center;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   display: none;
   
 }
 .question1 {
   
   text-align: center;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   
 }
 
@@ -27,7 +27,7 @@
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
-  margin: 0.3rem 0;
+  margin: 0.5rem 0;
   width: 50%;
   text-align: center;
   letter-spacing: 2px;
@@ -76,6 +76,12 @@
   position: absolute;
   bottom: 1rem;
   right: 1rem;
+}
+
+.quemg{
+  width: 200px;
+  height: 120px;
+  padding: -5px;
 }
 
 @media only screen and (max-width: 500px) and (min-width: 375px){

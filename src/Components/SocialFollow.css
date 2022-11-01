@@ -5,13 +5,17 @@
 }
 .FollowText{
   text-align: center;
-  margin: 10px;
-  margin-bottom: 25px;
+  margin: 5px;
+  margin-bottom: 20px;
 }
 .SocialMenu{ 
   display: grid;
   grid-template-columns: repeat(4,auto);
   list-style: none;
+}
+
+.FollowText1{
+  display: none;
 }
 
 a.social {
