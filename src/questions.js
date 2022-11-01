@@ -133,7 +133,7 @@ export const questions = [
   },
   {
     questionText:
-      "which of these are available at Student Plaza",
+      "Which of the 2 is available to buy at Student Plaza?",
     answers: [
       {
         answerImg: "cake.jpg",
