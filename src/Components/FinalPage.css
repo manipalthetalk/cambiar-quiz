@@ -73,7 +73,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     width: 30%;
   
   }
@@ -99,7 +99,7 @@
   }
   .apply_now{
     display: inline-block;
-    margin: 0.5rem 0.5rem 0 auto;
+    margin: 0.5rem auto 0 0.5rem;
     outline: 0;
     cursor: pointer;
     font-size: 1rem;

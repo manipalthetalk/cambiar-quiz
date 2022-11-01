@@ -64,10 +64,10 @@ progress[value]::-webkit-progress-value {
   }
 }
 
-@media only screen and (max-height:660px){
+@media only screen and (max-width:380px){
   .card-contents{
     width: 320px;
-    height: 440px;
+    height: 480px;
     padding: 1.8rem;
     left: auto;
     right: auto;
