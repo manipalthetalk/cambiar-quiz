@@ -15,7 +15,7 @@ export const questions = [
         correctAnswer: true,
       },
       {
-        answerText: "Tiger Circle",
+        answerText: "Syndicate circle",
         correctAnswer: false,
       },
     ],
