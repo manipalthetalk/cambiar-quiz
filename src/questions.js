@@ -22,23 +22,23 @@ export const questions = [
   },
   {
     questionText:
-      "Which branch is recently added this year ?",
+      "Where is Block 23 located in MIT Campus?",
     answers: [
       {
-        answerText: "CCE",
+        answerText: "Behind Block 12",
         correctAnswer: false,
       },
       {
-        answerText: "DSE",
+        answerText: "Behind Football Ground",
         correctAnswer: false,
       },
       {
-        answerText: "CSE-AIML",
-        correctAnswer: false,
-      },
-      {
-        answerText: "CPS",
+        answerText: "Behind AB5",
         correctAnswer: true,
+      },
+      {
+        answerText: "Behind Polytechnic",
+        correctAnswer: false,
       },
     ],
   },
