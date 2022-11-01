@@ -1,0 +1,66 @@
+.social-container {
+    background: #eee;
+    padding: 25px 50px;
+    margin: 20px;
+}
+.FollowText{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 25px;
+}
+.SocialMenu{ 
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    list-style: none;
+}
+
+a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+
+}
+
+a.social:hover {
+    transform: translateY(-2px);
+}
+
+a.youtube {
+    color: #eb3223;
+  }
+  
+  a.facebook {
+    color: #4968ad;
+  }
+  
+  a.twitter {
+    color: #49a1eb;
+  }
+  
+  a.instagram {
+    color: black;
+  }
+
+
+  @media only screen and (max-width: 500px){
+    .social-container {
+        width: 100%;
+        padding: 20px 20px;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .SocialMenu{ 
+        display: grid;
+        grid-template-columns: repeat(4,auto);
+        list-style: none;
+    }
+    
+    a.social {
+        margin: 0 1rem;
+        transition: transform 250ms;
+        display: inline-block;
+    
+    }
+    
+  }
