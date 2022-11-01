@@ -1,21 +1,21 @@
 export const questions = [
   {
-    questionText: "Which academic block is only for First Year Students?",
+    questionText: "What was the original name of Student Plaza?",
     answers: [
       {
-        answerText: "AB 1",
+        answerText: "Tiger Circle",
         correctAnswer: false,
       },
       {
-        answerText: "AB 2",
+        answerText: "Coin Circle",
         correctAnswer: false,
       },
       {
-        answerText: "AB 3",
+        answerText: "Kamath Circle",
         correctAnswer: true,
       },
       {
-        answerText: "AB 5",
+        answerText: "Tiger Circle",
         correctAnswer: false,
       },
     ],
