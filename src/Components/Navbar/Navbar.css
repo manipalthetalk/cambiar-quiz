@@ -68,7 +68,7 @@
     display:none;
 }
 
-@media screen and (max-width: 960px) {
+@media only screen and (max-width: 500px) and (min-width: 375px){
     .NavbarItems{
         position: relative;
         top:0;
@@ -124,7 +124,7 @@
         display: block;
         position: absolute;
         top:0;
-        right: 0px;
+        right: -0px;
         transform: translate(-100%,60%);
         font-size:1.8rem;
         cursor: pointer;
@@ -163,7 +163,7 @@
     
 }
 
-@media only screen and (min-height:660px){
+@media only screen and (max-width:380px){
     .navbar-logo{
         width: 60px;
         height: 60px;

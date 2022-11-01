@@ -2,6 +2,13 @@
   
   text-align: center;
   margin: 1rem 0;
+  display: none;
+  
+}
+.question1 {
+  
+  text-align: center;
+  margin: 1rem 0;
   
 }
 
@@ -71,17 +78,32 @@
   right: 1rem;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 500px) and (min-width: 375px){
   .answer{
     width: 80%;
+    margin: 0.5rem;
+    padding: 15px;
+    }
+
+  .quemg{
+      width: 200px;
+      height: 120px;
+      padding: -5px;
     }
   
     
 }
-@media only screen and (min-height:660px){
+@media only screen and (max-height:680px){
   .answer{
     width: 70%;
     height: 70%;
+  }
+
+  .question{
+    display:block
+  }
+  .question1{
+    display: none;
   }
 
   .quemg{

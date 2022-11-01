@@ -11,7 +11,8 @@ import {
 export default function SocialFollow() {
   return (
     <div class="social-container">
-    <h4 className="FollowText">Follow us on our socials</h4>
+    <h3 className="FollowText">Follow us on our socials</h3>
+    <h4 className="FollowText1">Follow us on our socials</h4>
     <div className="SocialMenu">
         <a href="https://www.youtube.com/c/manipalthetalk"
             className="youtube social" >

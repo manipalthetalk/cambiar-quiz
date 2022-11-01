@@ -44,6 +44,7 @@ if(questionIndex<5){
   return (
     <Card className="quecard" setQuestionIndex={setQuestionIndex} questionIndex={questionIndex} setShowFinalPage={setShowFinalPage} setShowQuestionsPage={setShowQuestionsPage} progressValue={progressValue} setProgressValue={setProgressValue}>
       <h2 className="question">{questions[questionIndex].questionText}</h2>
+      <h1 className="question1">{questions[questionIndex].questionText}</h1>
 
       <div className="answers">
         {questions[questionIndex].answers.map((answer, i) => (
@@ -71,6 +72,7 @@ else{
     <Card setQuestionIndex={setQuestionIndex} questionIndex={questionIndex} setShowFinalPage={setShowFinalPage} setShowQuestionsPage={setShowQuestionsPage} progressValue={progressValue} setProgressValue={setProgressValue
     }>
       <h2 className="question">{questions[questionIndex].questionText}</h2>
+      <h1 className="question1">{questions[questionIndex].questionText}</h1>
 
       <div className="answers">
         {questions[questionIndex].answers.map((answer, i) => (
