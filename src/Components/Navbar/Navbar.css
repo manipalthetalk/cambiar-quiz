@@ -18,6 +18,7 @@
     margin-left: 20px;
     margin-right: 100px;
     cursor: pointer;
+    height: 90px;
 }
 
 .fa-react{
@@ -56,6 +57,7 @@
 .fa-bars{
     color: #fff;
     margin-top: 5px;
+    margin-right: 10px;
 }
 
 .nav-links-mobile {
@@ -111,9 +113,10 @@
     }
 
     .navbar-logo{
-        position: absolute;
-        top:-50px;
-        left: -40px;
+        height: 80px;
+        position: relative;
+        top:-35px;
+        left: -135px;
         transform: translate(25%,50%);
     }
 
@@ -121,7 +124,7 @@
         display: block;
         position: absolute;
         top:0;
-        right: 10px;
+        right: 0px;
         transform: translate(-100%,60%);
         font-size:1.8rem;
         cursor: pointer;
@@ -130,6 +133,7 @@
     .fa-times{
         color: #fff;
         font-size: 2rem;
+
 
 
     }
@@ -157,4 +161,12 @@
         display: none;
     }
     
+}
+
+@media only screen and (min-height:660px){
+    .navbar-logo{
+        width: 60px;
+        height: 60px;
+        margin-top: 15px;
+    }
 }
