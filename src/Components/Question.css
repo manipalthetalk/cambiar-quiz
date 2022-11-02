@@ -117,4 +117,22 @@
     height: 90px;
   }
 }
+@media only screen and (max-width:361px)and (min-width: 350px){
+  .quemg{
+    width: 150px;
+    height: 90px;
+  }
+  .answer{
+    width: 70%;
+    height: 70%;
+  }
+
+  .question{
+    display:block
+  }
+  .question1{
+    display: none;
+  }
+
+}
 
