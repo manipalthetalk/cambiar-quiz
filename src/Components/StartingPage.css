@@ -53,3 +53,13 @@
     width: 80%;
   }
 }
+@media only screen and (max-width:321px){
+  .username_input{
+    width: 80%;
+    margin-top: 10px;
+    
+  }
+  .header{
+    margin-bottom: 15px;
+  }
+}
