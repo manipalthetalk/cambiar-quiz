@@ -12,6 +12,7 @@
 }
 
 .navbar-logo{
+    margin-top: 50px;
     color: white;
     justify-self: start;    
     cursor: pointer;
@@ -113,6 +114,7 @@
         position: relative;
         top:-15px;
         left: -185px;
+        margin-top: 0px;
         transform: translate(25%,50%);
     }
 
@@ -206,6 +208,7 @@
         position: relative;
         top:-15px;
         left: -170px;
+        margin-top: 0px;
         transform: translate(25%,50%);
     }
 
@@ -439,3 +442,12 @@
         display: none;
     }
 }
+
+@media only screen and (max-width:361px)and (min-width: 350px){
+    .NavbarItems{
+        margin-top: -20px;
+    }
+    .navbar-logo{
+        margin-top: 0px;
+    }
+  }
